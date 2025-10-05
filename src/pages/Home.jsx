@@ -1,18 +1,23 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
-import { Button } from "react-bootstrap";
+import HeroSection from "../components/HeroSection";
+import PackageSection from "../components/PackageSection";
+import ProjectsSection from "../components/ProjectsSection";
+import TestimonialsSection from "../components/TestimonialsSection";
+import QuoteBanner from "../components/QuoteBanner";
+// import Footer from "../components/Footer";
+import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
 function Home() {
-  const { t } = useTranslation();
-
   return (
-    <div className="text-center">
-      <h1>{t("home.title")}</h1>
-      <p className="lead">{t("home.subtitle")}</p>
-      <Button variant="primary" href="/services">
-        {t("navbar.services")}
-      </Button>
-    </div>
+    <>
+      <HeroSection />
+      <PackageSection />
+      <ProjectsSection />
+      <TestimonialsSection />
+      <QuoteBanner />
+      {/* <Footer /> */}
+      <FloatingWhatsApp />
+    </>
   );
 }
 

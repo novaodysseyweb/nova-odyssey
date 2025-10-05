@@ -1,0 +1,18 @@
+import React from "react";
+import { Container, Button } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+
+function QuoteBanner() {
+  const { t } = useTranslation();
+
+  return (
+    <section className="quote-banner text-center py-4 bg-warning bg-opacity-25">
+      <Container>
+        <p className="mb-3 fw-semibold">{t("home.quote.message")}</p>
+        <Button variant="primary">{t("navbar.quote")}</Button>
+      </Container>
+    </section>
+  );
+}
+
+export default QuoteBanner;

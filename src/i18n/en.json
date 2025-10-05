@@ -7,8 +7,46 @@
     "contact": "Contact",
     "quote": "Get a Quote"
   },
+
   "home": {
-    "title": "Designing the Future of Digital Presence",
-    "subtitle": "We build modern, scalable websites and digital products."
+    "hero": {
+      "title": "Nova Odyssey",
+      "subtitle": "What We Do",
+      "description": "We create unique and functional digital experiences tailored to your business needs.",
+      "cta": "View Portfolio"
+    },
+    "packages": {
+      "title": "Web Design Packages",
+      "description": "Choose the plan that best fits your project.",
+      "items": [
+        { "name": "Package 1", "details": "Ideal for small businesses and personal brands." },
+        { "name": "Package 2", "details": "Perfect for startups and growing companies." },
+        { "name": "Package 3", "details": "Custom enterprise-grade solution for large-scale projects." }
+      ]
+    },
+    "projects": {
+      "title": "Featured Projects",
+      "items": [
+        { "name": "Corporate Websites", "image": "https://picsum.photos/seed/mine/600/900" },
+        { "name": "Startups", "image": "https://picsum.photos/seed/mini/600/900" },
+        { "name": "Mobile Visualization", "image": "https://picsum.photos/seed/mo/600/900" }
+      ]
+    },
+    "testimonials": {
+      "title": "Testimonials",
+      "items": [
+        { "name": "Carlos M.", "website": "www.client.com", "details": "Excellent work and great attention to detail." },
+        { "name": "Lucía R.", "website": "www.agency.com", "details": "Modern and functional designs." },
+        { "name": "Fernando G.", "website": "www.business.com", "details": "Exceeded my expectations — highly recommended." }
+      ]
+    },
+    "quote": {
+      "message": "Ready to transform your digital presence?"
+    }
+  },
+  "common": {
+    "details": "Details",
+    "viewMore": "View More",
+    "viewPortfolio": "View Portfolio"
   }
 }

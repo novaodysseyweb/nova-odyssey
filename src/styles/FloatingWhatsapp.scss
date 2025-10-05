@@ -1,0 +1,27 @@
+.floating-whatsapp {
+  position: fixed;        // ⬅️ fixed keeps it visible during scroll
+  bottom: 1.5rem;
+  right: 1.5rem;
+  background-color: #25D366;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1050;          // ensures it’s above all content
+
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  svg {
+    display: block;
+  }
+}
