@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar, Nav, Container, Button, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import HorizontalLogo from "../assets/HorizontalLogo.png"; // Import the logo
 
 function NavbarComponent() {
   const { t, i18n } = useTranslation();
@@ -13,7 +14,12 @@ function NavbarComponent() {
   return (
     <Navbar bg="light" expand="lg" className="shadow-sm">
       <Container>
-        <Navbar.Brand as={Link} to="/">Nova Odyssey</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"> <img
+            src={HorizontalLogo}
+            alt="Nova Odyssey Logo"
+            height="80"
+            style={{ objectFit: "contain" }}
+          /></Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar" />
         <Navbar.Collapse id="main-navbar">
           <Nav className="ms-auto align-items-center">
