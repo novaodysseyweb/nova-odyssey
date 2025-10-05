@@ -7,7 +7,12 @@
     "contact": "Contacto",
     "quote": "Solicitar Cotización"
   },
-  
+  "footer": {
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "location": "Ubicación",
+    "tagline": "Diseñando el Futuro de la Presencia Digital"
+  },
   "home": {
     "hero": {
       "title": "Nova Odyssey",
@@ -19,28 +24,63 @@
       "title": "Paquetes de diseño Web",
       "description": "Elige el paquete que mejor se adapte a tu proyecto.",
       "items": [
-        { "name": "Paquete 1", "details": "Ideal para pequeños negocios." },
-        { "name": "Paquete 2", "details": "Perfecto para startups y marcas." },
-        { "name": "Paquete 3", "details": "Solución personalizada a gran escala." }
+        {
+          "name": "Paquete 1",
+          "details": "Ideal para pequeños negocios."
+        },
+        {
+          "name": "Paquete 2",
+          "details": "Perfecto para startups y marcas."
+        },
+        {
+          "name": "Paquete 3",
+          "details": "Solución personalizada a gran escala."
+        }
       ]
     },
     "projects": {
       "title": "Proyectos destacados",
       "items": [
-        { "name": "Sitios corporativos", "image": "https://picsum.photos/seed/mine/600/900" },
-        { "name": "Startups", "image":"https://picsum.photos/seed/mini/600/900" },
-        { "name": "Visualización en móviles", "image": "https://picsum.photos/seed/mo/600/900" },
-        { "name": "Menú digital", "image": "https://picsum.photos/seed/menu/600/900" },
-        { "name": "E-commerce", "image": "https://picsum.photos/seed/ecommerce/600/900" }
-
-    ]
+        {
+          "name": "Sitios corporativos",
+          "image": "https://picsum.photos/seed/mine/600/900"
+        },
+        {
+          "name": "Startups",
+          "image": "https://picsum.photos/seed/mini/600/900"
+        },
+        {
+          "name": "Visualización en móviles",
+          "image": "https://picsum.photos/seed/mo/600/900"
+        },
+        {
+          "name": "Menú digital",
+          "image": "https://picsum.photos/seed/menu/600/900"
+        },
+        {
+          "name": "E-commerce",
+          "image": "https://picsum.photos/seed/ecommerce/600/900"
+        }
+      ]
     },
     "testimonials": {
       "title": "Testimonios",
       "items": [
-        { "name": "Carlos M.", "website": "www.cliente.com", "details": "Excelente trabajo y atención al detalle." },
-        { "name": "Lucía R.", "website": "www.agencia.com", "details": "Diseños modernos y funcionales." },
-        { "name": "Fernando G.", "website": "www.negocio.com", "details": "Superó mis expectativas, 100% recomendado." }
+        {
+          "name": "Carlos M.",
+          "website": "www.cliente.com",
+          "details": "Excelente trabajo y atención al detalle."
+        },
+        {
+          "name": "Lucía R.",
+          "website": "www.agencia.com",
+          "details": "Diseños modernos y funcionales."
+        },
+        {
+          "name": "Fernando G.",
+          "website": "www.negocio.com",
+          "details": "Superó mis expectativas, 100% recomendado."
+        }
       ]
     },
     "quote": {
@@ -52,5 +92,4 @@
     "viewMore": "Ver más",
     "viewPortfolio": "Ver portafolio"
   }
-
 }

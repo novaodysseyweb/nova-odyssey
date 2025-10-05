@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavbarComponent from "./components/NavbarComponent";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 // import Services from "./pages/Services";
 // import Portfolio from "./pages/Portfolio";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </main>
+      <Footer />
     </Router>
   );
 }

@@ -7,6 +7,12 @@
     "contact": "Contact",
     "quote": "Get a Quote"
   },
+  "footer": {
+  "navigation": "Navigation",
+  "contact": "Contact",
+  "location": "Location",
+  "tagline": "Designing the Future of Digital Presence"
+},
 
   "home": {
     "hero": {

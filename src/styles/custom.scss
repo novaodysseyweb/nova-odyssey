@@ -267,3 +267,56 @@ input, textarea, select {
     }
   }
 }
+
+// === Footer Customization ===
+.footer {
+  background-color: $neutral-dark;
+  color: #eaeef3;
+  font-family: 'Atkinson Hyperlegible Next', sans-serif;
+
+  .footer-logo {
+    max-width: 300px;
+  }
+
+  .footer-heading {
+    font-weight: 700;
+    font-size: 1rem;
+    color: $primary;
+  }
+
+  a {
+    color: #eaeef3;
+    text-decoration: none;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  hr {
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .nav-link {
+    padding: 0.25rem 0;
+    color: #eaeef3 !important;
+    &:hover {
+      color: $primary !important;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+    li {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    text-align: center;
+    .footer-logo {
+      margin: 0 auto;
+    }
+  }
+}
