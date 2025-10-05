@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portafolio",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "quote": "Solicitar Cotización"
+  },
+  "home": {
+    "title": "Diseñando el Futuro de la Presencia Digital",
+    "subtitle": "Creamos sitios web y productos digitales modernos y escalables."
+  }
+}

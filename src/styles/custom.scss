@@ -1,0 +1,16 @@
+// Import Bootstrap and extend styles
+@import "bootstrap/scss/bootstrap";
+
+// Example variable override
+$primary: #0d6efd;
+
+// Global typography and layout tweaks
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fafafa;
+  color: #222;
+}
+
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+}

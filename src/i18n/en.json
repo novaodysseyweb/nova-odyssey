@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a Quote"
+  },
+  "home": {
+    "title": "Designing the Future of Digital Presence",
+    "subtitle": "We build modern, scalable websites and digital products."
+  }
+}
