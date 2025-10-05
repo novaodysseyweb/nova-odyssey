@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <NavbarComponent />
-      <main className="container py-4">
+      <main className="container p-0">
         <Routes>
           <Route path="/" element={<Home />} />
           {/* <Route path="/services" element={<Services />} />

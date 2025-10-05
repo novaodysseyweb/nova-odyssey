@@ -128,6 +128,13 @@ h2 {
   background-color: $primary;
   border-color: $primary;
   color: #fff;
+  
+  &:hover,
+  &:focus {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: #fff;
+  }
 }
 
 .btn-outline-primary {
@@ -319,4 +326,79 @@ input, textarea, select {
       margin: 0 auto;
     }
   }
+}
+
+
+// === Additional Background and styling ===
+
+// === BACKGROUND UTILITIES ===
+
+// Gradient variables
+$gradient-primary: linear-gradient(135deg, rgba($secondary, 0.95), rgba($primary, 0.85));
+$gradient-dark: linear-gradient(135deg, rgba(black, 0.98), rgba($neutral-dark, 0.95));
+$gradient-light: linear-gradient(135deg, #fafafa, #eaeef3);
+
+// Subtle dot/mesh overlay (for techy texture)
+$pattern-dots: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
+$pattern-grid: linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
+                linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+
+// === SECTION BACKGROUND MIXINS ===
+@mixin bg-gradient($gradient) {
+  background: $gradient;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+@mixin bg-overlay($pattern) {
+  background-image: $pattern;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+  opacity: 0.4;
+}
+
+// === HERO SECTION STYLING ===
+.hero-section {
+  @include bg-gradient($gradient-primary);
+  color: #fff;
+  padding: 6rem 1rem;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    @include bg-overlay($pattern-grid);
+    z-index: 0;
+  }
+
+  h1, h2, p, .btn {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// === FOOTER BACKGROUND ===
+.footer {
+  @include bg-gradient($gradient-dark);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: url("/assets/svg/footer-wave.svg") top center / cover no-repeat;
+  }
+}
+
+// === GLOBAL OPTIONAL DECORATIVE ELEMENTS ===
+.bg-accent-shapes {
+  background: url("/assets/svg/mesh-corner.svg") top right no-repeat,
+              url("/assets/svg/mesh-corner.svg") bottom left no-repeat;
+  background-size: 200px;
 }

@@ -7,7 +7,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="footer py-5 mt-5">
+    <footer className="footer py-5">
       <Container>
         <Row className="align-items-start">
           {/* === Logo & Description === */}
