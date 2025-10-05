@@ -216,3 +216,54 @@ input, textarea, select {
 .text-red { color: $danger !important; }
 .text-navy { color: $secondary !important; }
 
+// === PROJECTS CAROUSEL CUSTOMIZATION ===
+.projects-section {
+  .carousel {
+    position: relative;
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: auto;
+      top: 45%;
+      transform: translateY(-50%);
+      z-index: 10;
+    }
+
+    .carousel-control-prev {
+      left: -2rem; // move outside container
+    }
+
+    .carousel-control-next {
+      right: -2rem; // move outside container
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-size: 60%;
+      background-color: rgba(0, 0, 0, 0.25);
+      border-radius: 50%;
+    }
+
+    .project-image {
+      height: 200px;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .carousel-control-prev {
+      left: -1rem;
+    }
+    .carousel-control-next {
+      right: -1rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      display: none; // avoid clutter on small screens
+    }
+  }
+}

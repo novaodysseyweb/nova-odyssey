@@ -29,8 +29,11 @@
       "items": [
         { "name": "Sitios corporativos", "image": "https://picsum.photos/seed/mine/600/900" },
         { "name": "Startups", "image":"https://picsum.photos/seed/mini/600/900" },
-        { "name": "Visualización en móviles", "image": "https://picsum.photos/seed/mo/600/900" }
-      ]
+        { "name": "Visualización en móviles", "image": "https://picsum.photos/seed/mo/600/900" },
+        { "name": "Menú digital", "image": "https://picsum.photos/seed/menu/600/900" },
+        { "name": "E-commerce", "image": "https://picsum.photos/seed/ecommerce/600/900" }
+
+    ]
     },
     "testimonials": {
       "title": "Testimonios",
