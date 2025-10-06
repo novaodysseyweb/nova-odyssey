@@ -52,6 +52,102 @@
       "message": "Ready to transform your digital presence?"
     }
   },
+
+  
+  "services": {
+    "hero": {
+      "title": "Our services",
+      "subtitle": "Increase your online presence",
+      "description": "We offer a range of web design services to help your business stand out online. From custom website design to e-commerce solutions, we tailor our services to meet your unique needs.",
+      "cta": "Get a Quote"
+    },
+    "title": "Web Design Packages",
+    "description": "Compare our web design plans and see how each level adds more value.",
+    "featureHeader": "Features",
+    "plans": [
+      {
+        "name": "Basic Plan",
+        "price": "$300 USD",
+        "pages": "3–6",
+        "features": [
+          "fixedContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "autoresponder",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          "sitemap"
+        ]
+      },
+      {
+        "name": "Standard Plan",
+        "price": "$600 USD",
+        "pages": "8",
+        "features": [
+          "dynamicContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "autoresponder",
+          "cms",
+          "socialIntegration",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          "sitemap"
+        ]
+      },
+      {
+        "name": "Premium Plan",
+        "price": "$1,300 USD",
+        "pages": "12",
+        "features": [
+          "dynamicContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "optInForm",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "ecommerce",
+          "payment",
+          "autoresponder",
+          "cms",
+          "socialIntegration",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          "sitemap"
+        ]
+      }
+    ],
+    "features": [
+      { "key": "pages", "name": "Number of pages", "level": "common" },
+      { "key": "socialIcons", "name": "Social media icons", "level": "common" },
+      { "key": "unlimitedRevisions", "name": "Unlimited revisions", "level": "common" },
+      { "key": "hosting", "name": "Hosting setup", "level": "common" },
+      { "key": "domainSupport", "name": "Domain acquisition support", "level": "common" },
+      { "key": "speedOptimization", "name": "Speed optimization", "level": "common" },
+      { "key": "autoresponder", "name": "Autoresponder integration", "level": "common" },
+      { "key": "crossBrowser", "name": "Cross-browser compatibility", "level": "common" },
+      { "key": "responsive", "name": "Responsive design", "level": "common" },
+      { "key": "branding", "name": "Branding incorporation", "level": "common" },
+      { "key": "sitemap", "name": "Sitemap & Google Analytics", "level": "common" },
+      { "key": "cms", "name": "Content Management System (CMS)", "level": "standard" },
+      { "key": "socialIntegration", "name": "Social media integration", "level": "standard" },
+      { "key": "optInForm", "name": "Opt-in form (Newsletter)", "level": "premium" },
+      { "key": "ecommerce", "name": "E-commerce functionality", "level": "premium" },
+      { "key": "payment", "name": "Payment integration", "level": "premium" }
+    ]
+  
+  
+  },
   "common": {
     "details": "Details",
     "viewMore": "View More",

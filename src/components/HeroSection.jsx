@@ -7,7 +7,7 @@ function HeroSection() {
 
   return (
     <section className="hero-section text-center py-5">
-      <Container>
+      <Container className="container-fluid">
         <h1 className="display-4 fw-bold mb-3">{t("home.hero.title")}</h1>
         <h2 className="fw-semibold mb-3">{t("home.hero.subtitle")}</h2>
         <p className="mb-4 text-muted">{t("home.hero.description")}</p>

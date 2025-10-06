@@ -7,9 +7,9 @@ function QuoteBanner() {
 
   return (
     <section className="quote-banner text-center py-4 bg-warning bg-opacity-25">
-      <Container>
+      <Container className="container-fluid">
         <p className="mb-3 fw-semibold">{t("home.quote.message")}</p>
-        <Button variant="primary">{t("navbar.quote")}</Button>
+        <Button variant="primary" className="z-4">{t("navbar.quote")}</Button>
       </Container>
     </section>
   );

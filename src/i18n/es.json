@@ -87,6 +87,163 @@
       "message": "¿Listo para transformar tu presencia digital?"
     }
   },
+  "services": {
+    "hero": {
+      "title": "Nuestros servicios",
+      "subtitle": "Aumenta tu presencia en línea",
+      "description": "Ofrecemos una variedad de servicios de diseño web para ayudar a tu negocio a destacarse en línea. Desde el diseño de sitios web personalizados hasta soluciones de comercio electrónico, adaptamos nuestros servicios para satisfacer tus necesidades únicas.",
+      "cta": "Solicitar Cotización"
+    },
+    "title": "Paquetes de diseño Web",
+    "description": "Compara nuestros planes de diseño web y descubre cómo cada nivel agrega más valor.",
+    "featureHeader": "Características",
+    "plans": [
+      {
+        "name": "Plan Básico",
+        "price": "$5,000 MXN",
+        "pages": "3–6",
+        "features": [
+          "fixedContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "autoresponder",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          "sitemap"
+        ]
+      },
+      {
+        "name": "Plan Estándar",
+        "price": "$11,000 MXN",
+        "pages": "8",
+        "features": [
+          "dynamicContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "autoresponder",
+          "cms",
+          "socialIntegration",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          "sitemap"
+        ]
+      },
+      {
+        "name": "Plan Premium",
+        "price": "$22,500 MXN",
+        "pages": "12",
+        "features": [
+          "dynamicContent",
+          "socialIcons",
+          "unlimitedRevisions",
+          "optInForm",
+          "hosting",
+          "domainSupport",
+          "speedOptimization",
+          "ecommerce",
+          "payment",
+          "autoresponder",
+          "cms",
+          "socialIntegration",
+          "crossBrowser",
+          "responsive",
+          "branding",
+          
+          "sitemap"
+        ]
+      }
+    ],
+    "features": [
+      {
+        "key": "pages",
+        "name": "Número de páginas",
+        "level": "common"
+      },
+      {
+        "key": "socialIcons",
+        "name": "Íconos de redes sociales",
+        "level": "common"
+      },
+      {
+        "key": "unlimitedRevisions",
+        "name": "Revisiones ilimitadas",
+        "level": "common"
+      },
+      {
+        "key": "hosting",
+        "name": "Configuración de hosting",
+        "level": "common"
+      },
+      {
+        "key": "domainSupport",
+        "name": "Asistencia en adquisición de dominio",
+        "level": "common"
+      },
+      {
+        "key": "speedOptimization",
+        "name": "Optimización de velocidad",
+        "level": "common"
+      },
+      {
+        "key": "autoresponder",
+        "name": "Integración con autoresponder",
+        "level": "common"
+      },
+      {
+        "key": "crossBrowser",
+        "name": "Compatibilidad entre navegadores",
+        "level": "common"
+      },
+      {
+        "key": "responsive",
+        "name": "Diseño responsivo",
+        "level": "common"
+      },
+      {
+        "key": "branding",
+        "name": "Incorporación de branding",
+        "level": "common"
+      },
+      {
+        "key": "sitemap",
+        "name": "Mapa del sitio y Google Analytics",
+        "level": "common"
+      },
+      {
+        "key": "cms",
+        "name": "Sistema de gestión de contenido (CMS)",
+        "level": "standard"
+      },
+      {
+        "key": "socialIntegration",
+        "name": "Integración con redes sociales",
+        "level": "standard"
+      },
+      {
+        "key": "optInForm",
+        "name": "Formulario de suscripción (Newsletter)",
+        "level": "premium"
+      },
+      {
+        "key": "ecommerce",
+        "name": "Funcionalidad e-commerce",
+        "level": "premium"
+      },
+      {
+        "key": "payment",
+        "name": "Integración de pagos",
+        "level": "premium"
+      }
+    ]
+  },
   "common": {
     "details": "Detalles",
     "viewMore": "Ver más",
