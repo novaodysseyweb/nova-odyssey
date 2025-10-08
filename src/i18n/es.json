@@ -247,6 +247,28 @@
       }
     ]
   },
+    "contact": {
+    "hero": {
+      "title": "Contáctanos",
+      "subtitle": "Estamos aquí para ayudarte",
+      "description": "¿Tienes alguna pregunta o necesitas más información? No dudes en contactarnos. Nuestro equipo está listo para asistirte en tu viaje digital."
+    },
+    "infoTitle": "Datos de contacto",
+    "addressLabel": "Dirección",
+    "address": "Ciudad de México, MX",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Correo",
+    "formTitle": "Envíanos un mensaje",
+    "form": {
+      "name": "Nombre",
+      "phone": "Teléfono",
+      "email": "Correo",
+      "message": "Mensaje",
+      "send": "Enviar"
+    },
+    "success": "¡Tu mensaje fue enviado con éxito!",
+    "error": "Ocurrió un error. Inténtalo de nuevo más tarde."
+  },
   "common": {
     "details": "Detalles",
     "viewMore": "Ver más",

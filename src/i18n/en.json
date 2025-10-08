@@ -151,6 +151,28 @@
   
   
   },
+    "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We are here to help you",
+      "description": "Do you have any questions or need more information? Feel free to contact us. Our team is ready to assist you on your digital journey."
+    },
+    "infoTitle": "Contact Information",
+    "addressLabel": "Address",
+    "address": "Mexico City, MX",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "formTitle": "Send Us a Message",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "success": "Your message was sent successfully!",
+    "error": "An error occurred. Please try again later."
+  },
   "common": {
     "details": "Details",
     "viewMore": "View More",
