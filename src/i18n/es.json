@@ -101,6 +101,7 @@
       {
         "name": "Plan Básico",
         "price": "$5,000 MXN",
+        "discountPrice": "$4,500 MXN",
         "pages": "3–6",
         "features": [
           "fixedContent",
@@ -119,6 +120,7 @@
       {
         "name": "Plan Estándar",
         "price": "$11,000 MXN",
+        "discountPrice": "$9,900 MXN",
         "pages": "8",
         "features": [
           "dynamicContent",
@@ -139,6 +141,7 @@
       {
         "name": "Plan Premium",
         "price": "$22,500 MXN",
+        "discountPrice": "$20,250 MXN",
         "pages": "12",
         "features": [
           "dynamicContent",

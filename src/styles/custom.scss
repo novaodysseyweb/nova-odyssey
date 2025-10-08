@@ -14,24 +14,24 @@
 @font-face {
   font-family: 'Atkinson Hyperlegible Next';
   src: url('../assets/fonts/AtkinsonHyperlegibleNext.woff2') format('woff2'),
-       url('../assets/fonts/AtkinsonHyperlegibleNext.ttf') format('truetype');
+    url('../assets/fonts/AtkinsonHyperlegibleNext.ttf') format('truetype');
   font-display: swap;
 }
 
 // === COLOR SYSTEM ===
 // Derived from brand guideline palettes
-$neutral-dark: #1F1F2E; // deep navy tone
-$neutral-light: #F3F3F5;
+$neutral-dark: #1f1f2e; // deep navy tone
+$neutral-light: #f3f3f5;
 
-$primary: #E0B22F;      // gold (from the logo arcs)
-$info: #1FA2A0;         // teal/cyan tone
-$secondary: #1B3663;    // strong navy blue
-$success: #58C0AA;      // mint/green tone
-$danger: #791C29;       // dark red/burgundy
-$warning: #F6D85D;      // light yellow/gold variant
+$primary: #e0b22f; // gold (from the logo arcs)
+$info: #1fa2a0; // teal/cyan tone
+$secondary: #1b3663; // strong navy blue
+$success: #58c0aa; // mint/green tone
+$danger: #791c29; // dark red/burgundy
+$warning: #f6d85d; // light yellow/gold variant
 
 // === EXTENDED UTILITIES ===
-$body-bg: #F7F8FA;
+$body-bg: #f7f8fa;
 $body-color: #222831;
 $link-color: $secondary;
 $link-hover-color: darken($secondary, 8%);
@@ -40,7 +40,8 @@ $box-shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.08);
 $box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 
 // === TYPOGRAPHY ===
-$font-family-base: 'Atkinson Hyperlegible Next', system-ui, -apple-system, sans-serif;
+$font-family-base: 'Atkinson Hyperlegible Next', system-ui, -apple-system,
+  sans-serif;
 $headings-font-family: 'Atkinson Hyperlegible Next', sans-serif;
 $h1-font-family: 'Space Rave', $headings-font-family;
 $headings-color: $secondary;
@@ -52,6 +53,7 @@ $h3-font-weight: 600;
 
 // === CUSTOM GLOBAL STYLING ===
 body {
+  padding-top: 100px; // offset for fixed navbar
   background-color: $body-bg;
   color: $body-color;
   font-family: $font-family-base;
@@ -59,7 +61,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, .h1 {
+h1,
+.h1 {
   font-family: $h1-font-family;
   font-weight: $h1-font-weight;
   color: $secondary;
@@ -68,7 +71,11 @@ h1, .h1 {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $secondary;
   font-weight: $headings-font-weight;
 }
@@ -81,10 +88,22 @@ h2 {
 }
 
 .navbar {
-  background-color: $neutral-light !important;
+  background-color: rgba($neutral-light, 0.92) !important;
+  
   box-shadow: $box-shadow-sm;
   font-weight: 500;
+  border-bottom-left-radius: 1.2rem;
+  border-bottom-right-radius: 1.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  transition: box-shadow 0.2s;
 
+  &.scrolled {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+  }
   .navbar-brand {
     font-family: 'Space Rave';
     font-size: 1.25rem;
@@ -128,7 +147,7 @@ h2 {
   background-color: $primary;
   border-color: $primary;
   color: #fff;
-  
+
   &:hover,
   &:focus {
     background-color: $secondary;
@@ -169,7 +188,7 @@ h2 {
 // === FOOTER ===
 footer {
   background-color: $secondary;
-  color: #EDEFF2;
+  color: #edeff2;
   padding: 2rem 0;
   text-align: center;
 
@@ -202,7 +221,9 @@ a {
   color: $secondary;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   border-radius: $border-radius;
   border: 1px solid lighten($secondary, 40%);
   padding: 0.6rem 0.8rem;
@@ -215,13 +236,21 @@ input, textarea, select {
 
 // === UTILITIES ===
 .shadow-soft {
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-.text-gold { color: $primary !important; }
-.text-teal { color: $info !important; }
-.text-red { color: $danger !important; }
-.text-navy { color: $secondary !important; }
+.text-gold {
+  color: $primary !important;
+}
+.text-teal {
+  color: $info !important;
+}
+.text-red {
+  color: $danger !important;
+}
+.text-navy {
+  color: $secondary !important;
+}
 
 // === PROJECTS CAROUSEL CUSTOMIZATION ===
 .projects-section {
@@ -328,20 +357,35 @@ input, textarea, select {
   }
 }
 
-
 // === Additional Background and styling ===
 
 // === BACKGROUND UTILITIES ===
 
 // Gradient variables
-$gradient-primary: linear-gradient(135deg, rgba($secondary, 0.95), rgba($primary, 0.85));
-$gradient-dark: linear-gradient(135deg, rgba(black, 0.98), rgba($neutral-dark, 0.95));
+$gradient-primary: linear-gradient(
+  135deg,
+  rgba($secondary, 0.95),
+  rgba($primary, 0.85)
+);
+$gradient-dark: linear-gradient(
+  135deg,
+  rgba(black, 0.98),
+  rgba($neutral-dark, 0.95)
+);
 $gradient-light: linear-gradient(135deg, #fafafa, #eaeef3);
 
 // Subtle dot/mesh overlay (for techy texture)
-$pattern-dots: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
-$pattern-grid: linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px),
-                linear-gradient(180deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+$pattern-dots: radial-gradient(
+  circle at 1px 1px,
+  rgba(255, 255, 255, 0.1) 1px,
+  transparent 0
+);
+$pattern-grid: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 1px,
+    transparent 1px
+  ),
+  linear-gradient(180deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
 
 // === SECTION BACKGROUND MIXINS ===
 @mixin bg-gradient($gradient) {
@@ -367,14 +411,17 @@ $pattern-grid: linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1p
   overflow: hidden;
 
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     inset: 0;
     @include bg-overlay($pattern-grid);
     z-index: 0;
   }
 
-  h1, h2, p, .btn {
+  h1,
+  h2,
+  p,
+  .btn {
     position: relative;
     z-index: 2;
   }
@@ -386,20 +433,20 @@ $pattern-grid: linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1p
   position: relative;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: -0px;
     left: 0;
     width: 100%;
     height: 80px;
-    background: url("/assets/svg/footer-wave.svg") top center / cover no-repeat;
+    background: url('/assets/svg/footer-wave.svg') top center / cover no-repeat;
   }
 }
 
 // === GLOBAL OPTIONAL DECORATIVE ELEMENTS ===
 .bg-accent-shapes {
-  background: url("/assets/svg/mesh-corner.svg") top right no-repeat,
-              url("/assets/svg/mesh-corner.svg") bottom left no-repeat;
+  background: url('/assets/svg/mesh-corner.svg') top right no-repeat,
+    url('/assets/svg/mesh-corner.svg') bottom left no-repeat;
   background-size: 200px;
 }
 

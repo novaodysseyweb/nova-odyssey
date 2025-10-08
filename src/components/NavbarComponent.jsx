@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container, Button, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -6,13 +6,22 @@ import HorizontalLogo from "../assets/HorizontalLogo.png"; // Import the logo
 
 function NavbarComponent() {
   const { t, i18n } = useTranslation();
+    const [scrolled, setScrolled] = useState(false);
+
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
 
+   useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 10);
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+
   return (
-    <Navbar bg="light" expand="lg" className="shadow-sm">
+    <Navbar bg="light" expand="lg"       className={`shadow-sm${scrolled ? " scrolled" : ""}`}>
       <Container>
         <Navbar.Brand as={Link} to="/"> <img
             src={HorizontalLogo}
