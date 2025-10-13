@@ -2,8 +2,14 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
-import en from "./en.json";
-import es from "./es.json";
+import enMain from "./en/main.json";
+import enPortfolio from "./en/portfolio.json";
+
+import esMain from "./es/main.json";
+import esPortfolio from "./es/portfolio.json";
+
+const en = { ...enMain, ...enPortfolio };
+const es = { ...esMain, ...esPortfolio };
 
 i18n
   .use(LanguageDetector)       // ⬅️ Add this line

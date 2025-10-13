@@ -1,0 +1,66 @@
+{
+    "portfolio": {
+        "title": "Nuestro Portafolio",
+        "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
+        "projects": [
+            {
+                "name": "Sitio Web Corporativo para TechCorp",
+                "link": "https://www.techcorp.com",
+                "heroImage": "https://picsum.photos/seed/techcorp/600/400",
+                "client": "TechCorp",
+                "images": [
+                    "https://picsum.photos/seed/techcorp1/600/400",
+                    "https://picsum.photos/seed/techcorp2/600/400",
+                    "https://picsum.photos/seed/techcorp3/600/400"
+                ],
+                "details": "Un sitio web moderno y elegante diseñado para una empresa líder en tecnología, con diseño adaptable y elementos interactivos.",
+                "features": [
+                    "Diseño Adaptable",
+                    "Gráficos Personalizados",
+                    "Optimización SEO",
+                    "Integración de Blog"
+                ],
+                "featured": true
+
+            },
+            {
+                "name": "Plataforma de E-commerce para ShopEase",
+                "link": "https://www.shopease.com",
+                "heroImage": "https://picsum.photos/seed/shopease/600/400",
+                "client": "ShopEase",
+                "images": [
+                    "https://picsum.photos/seed/shopease1/600/400",
+                    "https://picsum.photos/seed/shopease2/600/400",
+                    "https://picsum.photos/seed/shopease3/600/400"
+                ],
+                "details": "Una robusta plataforma de comercio electrónico con una interfaz fácil de usar, pasarela de pago segura y sistema de gestión de inventario.",
+                "features": [
+                    "Interfaz Amigable",
+                    "Pasarela de Pago Segura",
+                    "Gestión de Inventario",
+                    "Opiniones de Clientes"
+                ],
+                "featured": true
+            },
+            {
+                "name": "Sitio Web de Portafolio para Jane Doe",
+                "link": "https://www.janedoe.com",
+                "heroImage": "https://picsum.photos/seed/janedoe/600/400",
+                "client": "Jane Doe",
+                "images": [
+                    "https://picsum.photos/seed/janedoe1/600/400",
+                    "https://picsum.photos/seed/janedoe2/600/400",
+                    "https://picsum.photos/seed/janedoe3/600/400"
+                ],
+                "details": "Un sitio web de portafolio visualmente impresionante para una diseñadora freelance, que muestra su trabajo y servicios.",
+                "features": [
+                    "Portafolio Visual",
+                    "Formulario de Contacto",
+                    "Listado de Servicios",
+                    "Integración de Redes Sociales"
+                ],
+                "featured": false
+            }
+        ]
+    }
+}
