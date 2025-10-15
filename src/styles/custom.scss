@@ -454,8 +454,10 @@ $pattern-grid: linear-gradient(
 
 .service-plans-section {
   .table {
-    background-color: #fff;
     border-radius: 0.75rem;
+    border-collapse: separate;
+      border-spacing: 40px 0; // 40px horizontal gap between columns, no vertical gap
+
     overflow: hidden;
   }
 
@@ -472,7 +474,6 @@ $pattern-grid: linear-gradient(
     font-size: 0.95rem;
   }
 
-  // soft row stripes
   tr:nth-child(even) {
     background-color: rgba($primary, 0.05);
   }
@@ -488,15 +489,30 @@ $pattern-grid: linear-gradient(
     color: rgba(0, 0, 0, 0.15);
     font-weight: 700;
   }
-
-  .shadow-soft {
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 0.75rem;
-  }
 }
 
 
-.service-plans-table th:not(:first-child),
-.service-plans-table td:not(:first-child) {
-  border-left: 40px solid $neutral-light; // adjust color as needed
+/* Round *each* top cell of the header row */
+.service-plans-table thead th {
+  &:first-child {
+    border-top-left-radius: 0.75rem;
+  }
+  &:last-child {
+    border-top-right-radius: 0.75rem;
+  }
+
+  /* Add rounding for each top cell if you want all four visually rounded boxes */
+  &:nth-child(1),
+  &:nth-child(2),
+  &:nth-child(3),
+  &:nth-child(4) {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+}
+
+/* Optional: prevents visible seams caused by spacing borders */
+.service-plans-table thead th {
+  position: relative;
+  z-index: 1;
 }

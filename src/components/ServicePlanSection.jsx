@@ -35,7 +35,7 @@ function ServicePlansSection () {
           {t('services.description')}
         </p>
 
-        <div className='table-responsive shadow-soft'>
+        <div className='table-responsive'>
           <Table
             bordered
             hover
