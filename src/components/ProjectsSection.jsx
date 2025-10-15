@@ -53,7 +53,7 @@ function ProjectsSection() {
         </Carousel>
 
         <div className="text-center mt-4">
-          <Button variant="primary">{t("common.viewPortfolio")}</Button>
+          <Button variant="primary" href="/portfolio">{t("common.viewPortfolio")}</Button>
         </div>
       </Container>
     </section>

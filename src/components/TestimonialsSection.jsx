@@ -14,9 +14,22 @@ function TestimonialsSection() {
           {testimonials.map((tst, idx) => (
             <Col md={4} key={idx} className="mb-4">
               <Card className="h-100 text-center shadow-soft border-0">
+                <Card.Header
+                                  className='text-center bg-secondary text-white'
+                                  style={{
+                                    fontWeight: 700,
+                                    fontSize: '1.2rem',
+                                    letterSpacing: '0.03em'
+                                  }}
+                                >
+                                  {tst.name}
+                                </Card.Header>
                 <Card.Body>
-                  <Card.Title>{tst.name}</Card.Title>
-                  <Card.Subtitle className="text-muted mb-3">{tst.website}</Card.Subtitle>
+                  <Card.Subtitle className="text-muted mb-3">{ <a
+    href={tst.website.startsWith("http") ? tst.website : `https://${tst.website}`}
+    target="_blank"
+    rel="noopener noreferrer"
+  >{tst.website}</a>}</Card.Subtitle>
                   <Card.Text>{tst.details}</Card.Text>
                 </Card.Body>
               </Card>

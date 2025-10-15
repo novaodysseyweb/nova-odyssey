@@ -23,19 +23,16 @@
     "packages": {
       "title": "Paquetes de diseño Web",
       "description": "Elige el paquete que mejor se adapte a tu proyecto.",
-      "items": [
-        {
-          "name": "Paquete 1",
-          "details": "Ideal para pequeños negocios."
-        },
-        {
-          "name": "Paquete 2",
-          "details": "Perfecto para startups y marcas."
-        },
-        {
-          "name": "Paquete 3",
-          "details": "Solución personalizada a gran escala."
-        }
+       "items": [
+        { "name": "Paquete 1", "explanation": "Perfecto para pequeños negocios.",
+        "features": ["3-6 páginas", "Contenido fijo", "Revisiones ilimitadas", "Configuración de hosting", "Soporte para adquisición de dominio"],
+        "details": "Más información sobre el paquete de inicio." },
+        { "name": "Paquete 2", "explanation": "Ideal para startups y empresas en crecimiento.",
+        "features": ["8-12 páginas", "Contenido dinámico", "Optimización SEO", "Integración de redes sociales"],
+        "details": "Más información sobre el paquete estándar." },
+        { "name": "Paquete 3", "explanation": "Solución personalizada a gran escala.",
+        "features": ["12+ páginas", "Integraciones personalizadas", "Soporte dedicado", "Optimización del rendimiento"],
+        "details": "Más información sobre el paquete premium." }
       ]
     },
     "projects": {
@@ -271,6 +268,7 @@
   },
   "common": {
     "details": "Detalles",
+    "hideDetails": "Ocultar Detalles",
     "viewMore": "Ver más",
     "viewPortfolio": "Ver portafolio"
   }
