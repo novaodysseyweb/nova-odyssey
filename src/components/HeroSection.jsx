@@ -13,7 +13,7 @@ function HeroSection() {
         <p className="mb-4 text-muted">{t("home.hero.description")}</p>
         <Button variant="light" href="/portfolio">
           {t("home.hero.cta")}
-        </Button>
+        </Button>   
       </Container>
     </section>
   );

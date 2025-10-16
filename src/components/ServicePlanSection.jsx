@@ -35,12 +35,12 @@ function ServicePlansSection () {
           {t('services.description')}
         </p>
 
-        <div className='table-responsive shadow-soft'>
+        <div className='table-responsive'>
           <Table
             bordered
             hover
             responsive
-            className='align-middle text-center mb-0'
+            className='align-middle text-center mb-0 service-plans-table'
           >
             <thead className='table-primary'>
               <tr>

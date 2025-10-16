@@ -25,9 +25,15 @@
       "title": "Web Design Packages",
       "description": "Choose the plan that best fits your project.",
       "items": [
-        { "name": "Package 1", "details": "Ideal for small businesses and personal brands." },
-        { "name": "Package 2", "details": "Perfect for startups and growing companies." },
-        { "name": "Package 3", "details": "Custom enterprise-grade solution for large-scale projects." }
+        { "name": "Package 1", "explanation": "Perfect for small businesses.",
+        "features": ["3-6 pages", "Fixed content", "Unlimited revisions", "Hosting setup", "Domain acquisition support"],
+        "details": "More info about Starter package." },
+        { "name": "Package 2", "explanation": "Ideal for startups and growing companies.",
+        "features": ["8-12 pages", "Dynamic content", "SEO optimization", "Social media integration"],
+        "details": "More info about Standard package." },
+        { "name": "Package 3", "explanation": "Custom enterprise-grade solution for large-scale projects.",
+        "features": ["12+ pages", "Custom integrations", "Dedicated support", "Performance optimization"],
+        "details": "More info about Premium package." }
       ]
     },
     "projects": {
@@ -175,6 +181,7 @@
   },
   "common": {
     "details": "Details",
+    "hideDetails": "Hide Details",
     "viewMore": "View More",
     "viewPortfolio": "View Portfolio"
   }
