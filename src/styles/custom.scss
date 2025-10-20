@@ -445,12 +445,6 @@ $pattern-grid: linear-gradient(
   // 
 }
 
-// === GLOBAL OPTIONAL DECORATIVE ELEMENTS ===
-.bg-accent-shapes {
-  background: url('/assets/svg/mesh-corner.svg') top right no-repeat,
-    url('/assets/svg/mesh-corner.svg') bottom left no-repeat;
-  background-size: 200px;
-}
 
 .service-plans-section {
   .table {
