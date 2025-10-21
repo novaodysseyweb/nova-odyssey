@@ -7,7 +7,7 @@ function Footer() {
   const { t } = useTranslation();
 
   return (
-    <footer className="footer py-5">
+    <footer className="footer py-4">
       <Container>
         <Row className="align-items-start">
           {/* === Logo & Description === */}
@@ -55,7 +55,7 @@ function Footer() {
           </Col>
         </Row>
 
-        <hr className="my-4" />
+        <hr className="my-2" />
 
         <Row>
           <Col className="text-center small">
