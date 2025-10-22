@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next";
 
 function ProjectsSection() {
   const { t } = useTranslation();
-  const projects = t("home.projects.items", { returnObjects: true });
-
+  let projects = t("portfolio.projects", { returnObjects: true });
+  //lets filter projects that have featured set to true
+  projects = projects.filter(proj => proj.featured);
   // Split projects into chunks depending on screen size (Bootstrap handled via CSS)
   const chunkProjects = (size) => {
     const chunks = [];
@@ -37,7 +38,7 @@ function ProjectsSection() {
                     <Card className="h-100 text-center shadow-soft border-0">
                       <Card.Img
                         variant="top"
-                        src={proj.image}
+                        src={proj.images[0]}
                         alt={proj.name}
                         className="project-image"
                       />
