@@ -102,7 +102,7 @@ function PortfolioProjectsSection() {
               {selectedProject.images.map((image, idx) => (
                 <Carousel.Item key={idx}>
                   <Row className="justify-content-center">
-                    <Col key={idx} className="mb-4">
+                    <Col key={idx} className="my-4">
                       <Card.Img
                         src={image}
                         alt={selectedProject.name}

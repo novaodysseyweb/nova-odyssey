@@ -10,7 +10,7 @@
                 "heroImage": "/src/assets/CuauhtemocWeb.jpeg",
                 "client": "Cuauhtémoc IPN",
                 "images": [
-                    "https://picsum.photos/seed/techcorp1/600/400",
+                    "/src/assets/Hover.png",
                     "https://picsum.photos/seed/techcorp2/600/400",
                     "https://picsum.photos/seed/techcorp3/600/400"
                 ],
