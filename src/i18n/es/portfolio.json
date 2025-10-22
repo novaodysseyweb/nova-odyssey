@@ -26,7 +26,7 @@
       {
         "name": "Sitio Corporativo para negocio B2B",
         "link": "https://tfuturo.com/",
-        "heroImage":           "/src/assets/portfolio/tfuturo/Tfuturo1.png",
+        "heroImage": "/src/assets/portfolio/tfuturo/Tfuturo1.png",
         "client": "Tejiendo Futuro",
         "images": [
           "src/assets/portfolio/tfuturo/Tfuturo1.png",
@@ -48,23 +48,31 @@
         "featured": true
       },
       {
-        "name": "Sitio Web de Portafolio para Jane Doe",
-        "link": "https://www.janedoe.com",
-        "heroImage": "https://picsum.photos/seed/janedoe/600/400",
-        "client": "Jane Doe",
+        "name": "Plataforma de Renta de Vestidos y Gestión de Negocio - DressUp",
+        "link": "https://dressup-v1.netlify.app",
+        "heroImage": "/src/assets/portfolio/dressup/Dressup1.png",
+        "client": "DressUp",
         "images": [
-          "https://picsum.photos/seed/janedoe1/600/400",
-          "https://picsum.photos/seed/janedoe2/600/400",
-          "https://picsum.photos/seed/janedoe3/600/400"
+          "/src/assets/portfolio/dressup/Dressup1.png",
+          "/src/assets/portfolio/dressup/Dressup2.png",
+          "/src/assets/portfolio/dressup/Dressup3.png",
+          "/src/assets/portfolio/dressup/Dressup4.png",
+          "/src/assets/portfolio/dressup/Dressup5.png"
         ],
-        "details": "Un sitio web de portafolio visualmente impresionante para una diseñadora freelance, que muestra su trabajo y servicios.",
+        "details": "Proyecto integral que combina una página pública para la renta de vestidos y servicios con una aplicación interna de gestión empresarial. El sistema permite administrar usuarios, roles, calendario de reservas, inventario, servicios, transacciones y reportes financieros. La página pública muestra el catálogo de vestidos, servicios adicionales (maquillaje, peinado, eventos) y ofrece un sistema de citas en línea. El diseño destaca por su estilo elegante y femenino con una paleta rosa, tipografía serif y enfoque en la experiencia del usuario.",
         "features": [
-          "Portafolio Visual",
-          "Formulario de Contacto",
-          "Listado de Servicios",
-          "Integración de Redes Sociales"
+          "Diseño responsivo y moderno",
+          "CMS personalizado con panel administrativo",
+          "Gestión de usuarios y roles",
+          "Control de inventario de vestidos y servicios",
+          "Sistema de reservas y calendario integrado",
+          "Panel financiero con resumen contable",
+          "Gestión de ventas y transacciones",
+          "Módulo de seguimiento del proceso de renta",
+          "Catálogo público con filtros y agendamiento",
+          "Reportes dinámicos y métricas de negocio"
         ],
-        "featured": false
+        "featured": true
       }
     ]
   }

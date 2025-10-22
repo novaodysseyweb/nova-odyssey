@@ -47,23 +47,31 @@
         "featured": true
       },
       {
-        "name": "Portfolio Website for Jane Doe",
-        "link": "https://www.janedoe.com",
-        "heroImage": "https://picsum.photos/seed/janedoe/600/400",
-        "client": "Jane Doe",
+        "name": "Dress Rental and Business Management Platform",
+        "link": "https://dressup-v1.netlify.app",
+        "heroImage": "/src/assets/portfolio/dressup/Dressup1.png",
+        "client": "DressUp",
         "images": [
-          "https://picsum.photos/seed/janedoe1/600/400",
-          "https://picsum.photos/seed/janedoe2/600/400",
-          "https://picsum.photos/seed/janedoe3/600/400"
+          "/src/assets/portfolio/dressup/Dressup1.png",
+          "/src/assets/portfolio/dressup/Dressup2.png",
+          "/src/assets/portfolio/dressup/Dressup3.png",
+          "/src/assets/portfolio/dressup/Dressup4.png",
+          "/src/assets/portfolio/dressup/Dressup5.png"
         ],
-        "details": "A visually stunning portfolio website for a freelance designer, showcasing her work and services.",
+        "details": "Comprehensive project combining a public-facing website for dress rentals and beauty services with an internal business management system. The platform includes user and role management, booking calendar, inventory control, service management, sales tracking, and financial summaries. The public site showcases the dress catalog, additional services (makeup, hair styling, events), and an online booking system. The design features an elegant, feminine aesthetic with a soft pink palette, serif typography, and a user-focused interface.",
         "features": [
-          "Visual Portfolio",
-          "Contact Form",
-          "Service Listings",
-          "Social Media Integration"
+          "Responsive and elegant design",
+          "Custom CMS with admin dashboard",
+          "User and role management",
+          "Inventory control for dresses and services",
+          "Integrated booking and calendar system",
+          "Financial dashboard and accounting summary",
+          "Sales and transaction management",
+          "Rental process tracking module",
+          "Public catalog with filters and online booking",
+          "Dynamic reporting and business analytics"
         ],
-        "featured": false
+        "featured": true
       }
     ]
   }
