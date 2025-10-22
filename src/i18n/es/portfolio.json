@@ -7,7 +7,7 @@
             {
                 "name": "Sitio Web de Competencias para Equipo Universitario",
                 "link": "https://cuauhtemocipn.com/",
-                "heroImage": "https://picsum.photos/seed/techcorp/600/400",
+                "heroImage": "../assets/CuauhtémocWeb.jpeg",
                 "client": "TechCorp",
                 "images": [
                     "https://picsum.photos/seed/techcorp1/600/400",
