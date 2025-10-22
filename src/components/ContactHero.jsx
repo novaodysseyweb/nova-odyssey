@@ -10,7 +10,7 @@ function ContactHero() {
       <Container className="container-fluid">
         <h1 className="display-4 fw-bold mb-3">{t("contact.hero.title")}</h1>
         <h2 className="fw-semibold mb-3">{t("contact.hero.subtitle")}</h2>
-        <p className="mb-4 text-muted">{t("contact.hero.description")}</p>
+        <p className="mb-4 outline-text">{t("contact.hero.description")}</p>
       </Container>
     </section>
   );

@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import Button from 'react-bootstrap/Button'
+import { Card, Carousel, Row, Col } from 'react-bootstrap';
 import { Modal } from 'react-bootstrap'
 
 
@@ -11,7 +12,6 @@ function PortfolioProjectsSection() {
   const projects = t('portfolio.projects', { returnObjects: true })
   const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
-
 
   const details = (project) => {
     setSelectedProject(project)
@@ -23,7 +23,6 @@ function PortfolioProjectsSection() {
     setSelectedProject(null)
   }
 
-
   return (
     <div className='container-lg pb-4'>
       <div className='row justify-content-center align-items-center px-0 mx-0'>
@@ -33,7 +32,7 @@ function PortfolioProjectsSection() {
             className='d-flex justify-content-center align-items-center my-5 col-11 col-sm-10 col-md-6'
           >
             <div className='col'>
-              <div className='card col-10 col-sm-9 col-lg-12'>
+              <div className='card'>
                 <div>
                   <a href={project.link} className='ratio ratio-16x9' target='blank'>
                     <img
@@ -94,9 +93,39 @@ function PortfolioProjectsSection() {
             <h6 className='card-text card-subtile text-justify border border-secondary text-secondary rounded d-inline-block p-2'>
               {selectedProject.client}
             </h6>
+            <Carousel
+              indicators={false}
+              nextIcon={<span className="carousel-control-next-icon bg-dark rounded-circle p-3" />}
+              prevIcon={<span className="carousel-control-prev-icon bg-dark rounded-circle p-3" />}
+              className="projects-carousel"
+            >
+              {selectedProject.images.map((image, idx) => (
+                <Carousel.Item key={idx}>
+                  <Row className="justify-content-center">
+                    <Col key={idx} className="mb-4">
+                      <Card.Img
+                        src={image}
+                        alt={selectedProject.name}
+                      />
+                    </Col>
+                  </Row>
+                </Carousel.Item>
+              ))}
+            </Carousel>
             <p className='card-text text-justify'>
               {selectedProject.details}
             </p>
+            <p className='card-text text-justify'>
+              Elementos empleados:
+            </p>
+            {selectedProject.features.map((feature, idx) => (
+              <div class="form-check" key={idx}>
+                <input class="form-check-input" type="checkbox" value={feature} id={`feature-${idx}`} checked />
+                <label class="form-check-label" for={`feature-${idx}`}>
+                  {feature}
+                </label>
+              </div>
+            ))}
             <div className='text-center mt-4'>
               <Button variant='primary' onClick={handleCloseModal}>
                 Cerrar

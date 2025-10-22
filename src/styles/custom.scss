@@ -510,3 +510,14 @@ $pattern-grid: linear-gradient(
   position: relative;
   z-index: 1;
 }
+
+/* Add black border to white text on top of background  */
+.outline-text
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
