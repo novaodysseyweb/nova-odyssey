@@ -1,67 +1,71 @@
 {
-    "portfolio": {
-        "title": "Nuestro Portafolio",
-        "subtitle": "Nuestros trabajos realizados",
-        "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
-        "projects": [
-            {
-                "name": "Sitio Web de Competencias para Equipo Universitario",
-                "link": "https://cuauhtemocipn.com/",
-                "heroImage": "/src/assets/CuauhtemocWeb.jpeg",
-                "client": "Cuauhtémoc IPN",
-                "images": [
-                    "/src/assets/Hover.png",
-                    "https://picsum.photos/seed/techcorp2/600/400",
-                    "https://picsum.photos/seed/techcorp3/600/400"
-                ],
-                "details": "Creado para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado.",
-                "features": [
-                    "Diseño Adaptable",
-                    "Integración de Redes Sociales",
-                    "Optimización SEO",
-                    "Integración de Blog"
-                ],
-                "featured": true
-
-            },
-            {
-                "name": "Plataforma de E-commerce para ShopEase",
-                "link": "https://www.shopease.com",
-                "heroImage": "https://picsum.photos/seed/shopease/600/400",
-                "client": "ShopEase",
-                "images": [
-                    "https://picsum.photos/seed/shopease1/600/400",
-                    "https://picsum.photos/seed/shopease2/600/400",
-                    "https://picsum.photos/seed/shopease3/600/400"
-                ],
-                "details": "Una robusta plataforma de comercio electrónico con una interfaz fácil de usar, pasarela de pago segura y sistema de gestión de inventario.",
-                "features": [
-                    "Interfaz Amigable",
-                    "Pasarela de Pago Segura",
-                    "Gestión de Inventario",
-                    "Opiniones de Clientes"
-                ],
-                "featured": true
-            },
-            {
-                "name": "Sitio Web de Portafolio para Jane Doe",
-                "link": "https://www.janedoe.com",
-                "heroImage": "https://picsum.photos/seed/janedoe/600/400",
-                "client": "Jane Doe",
-                "images": [
-                    "https://picsum.photos/seed/janedoe1/600/400",
-                    "https://picsum.photos/seed/janedoe2/600/400",
-                    "https://picsum.photos/seed/janedoe3/600/400"
-                ],
-                "details": "Un sitio web de portafolio visualmente impresionante para una diseñadora freelance, que muestra su trabajo y servicios.",
-                "features": [
-                    "Portafolio Visual",
-                    "Formulario de Contacto",
-                    "Listado de Servicios",
-                    "Integración de Redes Sociales"
-                ],
-                "featured": false
-            }
-        ]
-    }
+  "portfolio": {
+    "title": "Nuestro Portafolio",
+    "subtitle": "Nuestros trabajos realizados",
+    "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
+    "projects": [
+      {
+        "name": "Sitio Web de Competencias para Equipo Universitario",
+        "link": "https://cuauhtemocipn.com/",
+        "heroImage": "/src/assets/CuauhtemocWeb.jpeg",
+        "client": "Cuauhtémoc IPN",
+        "images": [
+          "/src/assets/Hover.png",
+          "https://picsum.photos/seed/techcorp2/600/400",
+          "https://picsum.photos/seed/techcorp3/600/400"
+        ],
+        "details": "Creado para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado.",
+        "features": [
+          "Diseño Adaptable",
+          "Integración de Redes Sociales",
+          "Optimización SEO",
+          "Integración de Blog"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Sitio Corporativo para negocio B2B",
+        "link": "https://tfuturo.com/",
+        "heroImage":           "/src/assets/portfolio/tfuturo/Tfuturo1.png",
+        "client": "Tejiendo Futuro",
+        "images": [
+          "src/assets/portfolio/tfuturo/Tfuturo1.png",
+          "src/assets/portfolio/tfuturo/Tfuturo2.png",
+          "src/assets/portfolio/tfuturo/Tfuturo3.png",
+          "src/assets/portfolio/tfuturo/Tfuturo4.png",
+          "src/assets/portfolio/tfuturo/Tfuturo5.png"
+        ],
+        "details": "Sitio web corporativo enfocado en liderazgo, innovación y transformación organizacional. Combina un diseño moderno con colores vibrantes (magenta, naranja, verde y azul), tipografía limpia y enfoque humano. Incluye secciones de servicios, artículos, clientes y una agenda integrada para reservar citas mediante Google Calendar.",
+        "features": [
+          "Diseño responsivo",
+          "CMS personalizado",
+          "Integración con Google Calendar para reservas",
+          "Blog dinámico de artículos",
+          "Paleta de colores vibrante y coherente",
+          "Optimización SEO",
+          "Interfaz intuitiva centrada en la experiencia del usuario"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Sitio Web de Portafolio para Jane Doe",
+        "link": "https://www.janedoe.com",
+        "heroImage": "https://picsum.photos/seed/janedoe/600/400",
+        "client": "Jane Doe",
+        "images": [
+          "https://picsum.photos/seed/janedoe1/600/400",
+          "https://picsum.photos/seed/janedoe2/600/400",
+          "https://picsum.photos/seed/janedoe3/600/400"
+        ],
+        "details": "Un sitio web de portafolio visualmente impresionante para una diseñadora freelance, que muestra su trabajo y servicios.",
+        "features": [
+          "Portafolio Visual",
+          "Formulario de Contacto",
+          "Listado de Servicios",
+          "Integración de Redes Sociales"
+        ],
+        "featured": false
+      }
+    ]
+  }
 }

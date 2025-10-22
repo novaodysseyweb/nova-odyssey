@@ -38,7 +38,7 @@ function ProjectsSection() {
                     <Card className="h-100 text-center shadow-soft border-0">
                       <Card.Img
                         variant="top"
-                        src={proj.images[0]}
+                        src={proj.heroImage}
                         alt={proj.name}
                         className="project-image"
                       />

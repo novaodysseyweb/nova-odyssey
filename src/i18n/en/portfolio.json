@@ -1,65 +1,70 @@
 {
-    "portfolio": {
-        "title": "Our Portfolio",
-        "description": "Explore some of our recent projects that showcase our expertise in web design and development.",
-        "projects": [
-            {
-                "name": "Corporate Website for TechCorp",
-                "link": "https://www.techcorp.com",
-                "heroImage": "https://picsum.photos/seed/techcorp/600/400",
-                "client": "TechCorp",
-                "images": [
-                    "https://picsum.photos/seed/techcorp1/600/400",
-                    "https://picsum.photos/seed/techcorp2/600/400",
-                    "https://picsum.photos/seed/techcorp3/600/400"
-                ],
-                "details": "A sleek, modern website designed for a leading technology company, featuring responsive design and interactive elements.",
-                "features": [
-                    "Responsive Design",
-                    "Custom Graphics",
-                    "SEO Optimization",
-                    "Blog Integration"
-                ],
-                "featured": true
-            },
-            {
-                "name": "E-commerce Platform for ShopEase",
-                "link": "https://www.shopease.com",
-                "heroImage": "https://picsum.photos/seed/shopease/600/400",
-                "client": "ShopEase",
-                "images": [
-                    "https://picsum.photos/seed/shopease1/600/400",
-                    "https://picsum.photos/seed/shopease2/600/400",
-                    "https://picsum.photos/seed/shopease3/600/400"
-                ],
-                "details": "A robust e-commerce platform with a user-friendly interface, secure payment gateway, and inventory management system.",
-                "features": [
-                    "User-Friendly Interface",
-                    "Secure Payment Gateway",
-                    "Inventory Management",
-                    "Customer Reviews"
-                ],
-                "featured": true
-            },
-            {
-                "name": "Portfolio Website for Jane Doe",
-                "link": "https://www.janedoe.com",
-                "heroImage": "https://picsum.photos/seed/janedoe/600/400",
-                "client": "Jane Doe",
-                "images": [
-                    "https://picsum.photos/seed/janedoe1/600/400",
-                    "https://picsum.photos/seed/janedoe2/600/400",
-                    "https://picsum.photos/seed/janedoe3/600/400"
-                ],
-                "details": "A visually stunning portfolio website for a freelance designer, showcasing her work and services.",
-                "features": [
-                    "Visual Portfolio",
-                    "Contact Form",
-                    "Service Listings",
-                    "Social Media Integration"
-                ],
-                "featured": false
-            }
-        ]
-    }
+  "portfolio": {
+    "title": "Our Portfolio",
+    "description": "Explore some of our recent projects that showcase our expertise in web design and development.",
+    "projects": [
+      {
+        "name": "Corporate Website for TechCorp",
+        "link": "https://www.techcorp.com",
+        "heroImage": "https://picsum.photos/seed/techcorp/600/400",
+        "client": "TechCorp",
+        "images": [
+          "https://picsum.photos/seed/techcorp1/600/400",
+          "https://picsum.photos/seed/techcorp2/600/400",
+          "https://picsum.photos/seed/techcorp3/600/400"
+        ],
+        "details": "A sleek, modern website designed for a leading technology company, featuring responsive design and interactive elements.",
+        "features": [
+          "Responsive Design",
+          "Custom Graphics",
+          "SEO Optimization",
+          "Blog Integration"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Corporate Website for B2B Business",
+        "link": "https://tfuturo.com/",
+        "heroImage": "/src/assets/portfolio/tfuturo/Tfuturo1.png",
+        "client": "Tejiendo Futuro",
+        "images": [
+          "src/assets/portfolio/tfuturo/Tfuturo1.png",
+          "src/assets/portfolio/tfuturo/Tfuturo2.png",
+          "src/assets/portfolio/tfuturo/Tfuturo3.png",
+          "src/assets/portfolio/tfuturo/Tfuturo4.png",
+          "src/assets/portfolio/tfuturo/Tfuturo5.png"
+        ],
+        "details": "Corporate website focused on leadership, innovation, and organizational transformation. It combines a modern design with vibrant colors (magenta, orange, green, and blue), clean typography, and a human-centered approach. Includes service sections, client showcases, dynamic blog, and an integrated Google Calendar booking system.",
+        "features": [
+          "Responsive Design",
+          "Custom CMS",
+          "Google Calendar Booking Integration",
+          "Dynamic Blog System",
+          "Vibrant and Consistent Color Palette",
+          "SEO Optimization",
+          "User-Centered Interface"
+        ],
+        "featured": true
+      },
+      {
+        "name": "Portfolio Website for Jane Doe",
+        "link": "https://www.janedoe.com",
+        "heroImage": "https://picsum.photos/seed/janedoe/600/400",
+        "client": "Jane Doe",
+        "images": [
+          "https://picsum.photos/seed/janedoe1/600/400",
+          "https://picsum.photos/seed/janedoe2/600/400",
+          "https://picsum.photos/seed/janedoe3/600/400"
+        ],
+        "details": "A visually stunning portfolio website for a freelance designer, showcasing her work and services.",
+        "features": [
+          "Visual Portfolio",
+          "Contact Form",
+          "Service Listings",
+          "Social Media Integration"
+        ],
+        "featured": false
+      }
+    ]
+  }
 }
