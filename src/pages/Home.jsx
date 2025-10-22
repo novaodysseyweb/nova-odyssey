@@ -13,9 +13,8 @@ function Home() {
       <HeroSection />
       <PackageSection />
       <ProjectsSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <QuoteBanner />
-      {/* <Footer /> */}
       <FloatingWhatsApp />
     </>
   );

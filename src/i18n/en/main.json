@@ -68,7 +68,6 @@
       {
         "name": "Basic Plan",
         "price": "$300 USD",
-        "discountPrice": "$270 USD",
         "pages": "3–6",
         "features": [
           "fixedContent",
@@ -87,7 +86,6 @@
       {
         "name": "Standard Plan",
         "price": "$600 USD",
-        "discountPrice": "$540 USD",
         "pages": "8",
         "features": [
           "dynamicContent",
@@ -108,7 +106,6 @@
       {
         "name": "Premium Plan",
         "price": "$1,300 USD",
-        "discountPrice": "$1,170 USD",
         "pages": "12",
         "features": [
           "dynamicContent",

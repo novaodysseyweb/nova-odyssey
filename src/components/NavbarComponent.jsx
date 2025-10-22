@@ -35,7 +35,7 @@ function NavbarComponent() {
             <Nav.Link as={Link} to="/">{t("navbar.home")}</Nav.Link>
             <Nav.Link as={Link} to="/services">{t("navbar.services")}</Nav.Link>
             <Nav.Link as={Link} to="/portfolio">{t("navbar.portfolio")}</Nav.Link>
-            <Nav.Link as={Link} to="/about">{t("navbar.about")}</Nav.Link>
+            {/* <Nav.Link as={Link} to="/about">{t("navbar.about")}</Nav.Link> */}
             <Nav.Link as={Link} to="/contact">{t("navbar.contact")}</Nav.Link>
 
             <Button as={Link} to="/contact" variant="primary" className="ms-3">
