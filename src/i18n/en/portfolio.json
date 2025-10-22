@@ -72,7 +72,34 @@
           "Dynamic reporting and business analytics"
         ],
         "featured": true
-      }
+      },
+      {
+    "name": "Digital Menu for Restaurant ",
+    "link": "https://cava-urbana.netlify.app/",
+    "heroImage": "/src/assets/portfolio/cavaUrbana/cava1.png",
+    "client": "La Cava Urbana",
+    "images": [
+        "/src/assets/portfolio/cavaUrbana/cava1.png",
+        "/src/assets/portfolio/cavaUrbana/cava2.png",
+        "/src/assets/portfolio/cavaUrbana/cava3.png",
+        "/src/assets/portfolio/cavaUrbana/cava4.png",
+        "/src/assets/portfolio/cavaUrbana/cava5.png",
+        "/src/assets/portfolio/cavaUrbana/cava6.png",
+        "/src/assets/portfolio/cavaUrbana/cava7.png"
+    ],
+    "details": "Elegant website for a fine dining restaurant specializing in contemporary cuisine and artisanal wines. The design features warm tones, serif typography, and a minimalist layout that conveys sophistication and authenticity. Includes sections for the menu, online reservations, contact details, and the restaurant’s philosophy. Fully responsive and optimized for local SEO.",
+    "features": [
+        "Responsive and minimalist design",
+        "User-centered interface",
+        "Online reservation system",
+        "Dynamic menu presentation",
+        "Google Maps integration",
+        "Local SEO optimization",
+        "Consistent visual identity"
+    ],
+    "featured": true
+}
+
     ]
   }
 }

@@ -73,7 +73,34 @@
           "Reportes dinámicos y métricas de negocio"
         ],
         "featured": true
-      }
+      },
+      {
+    "name": "Menú Digital para Restaurante",
+    "link": "https://cava-urbana.netlify.app/",
+    "heroImage": "/src/assets/portfolio/cavaUrbana/cava1.png",
+    "client": "La Cava Urbana",
+    "images": [
+        "/src/assets/portfolio/cavaUrbana/cava1.png",
+        "/src/assets/portfolio/cavaUrbana/cava2.png",
+        "/src/assets/portfolio/cavaUrbana/cava3.png",
+        "/src/assets/portfolio/cavaUrbana/cava4.png",
+        "/src/assets/portfolio/cavaUrbana/cava5.png",
+        "/src/assets/portfolio/cavaUrbana/cava6.png",
+        "/src/assets/portfolio/cavaUrbana/cava7.png"
+    ],
+    "details": "Desarrollo de un sitio web elegante para un restaurante de cocina de autor y vinos artesanales. El diseño combina tonos cálidos, tipografía serif y un estilo minimalista que transmite sofisticación y cercanía. Incluye páginas de menú, reservaciones en línea, información de contacto y una sección sobre la filosofía del restaurante. Totalmente adaptable a dispositivos móviles y optimizado para SEO local.",
+    "features": [
+        "Diseño responsivo y minimalista",
+        "Interfaz centrada en la experiencia del usuario",
+        "Sistema de reservas en línea",
+        "Presentación dinámica del menú",
+        "Integración con Google Maps",
+        "Optimización SEO local",
+        "Diseño visual coherente con la identidad de marca"
+    ],
+    "featured": true
+}
+
     ]
   }
 }
