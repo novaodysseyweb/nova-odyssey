@@ -17,7 +17,7 @@ function ContactInfo() {
         </li>
         <li>
           <strong>{t("contact.emailLabel")}:</strong>{" "}
-          <a href="mailto:hello@novaodyssey.com">hello@novaodyssey.com</a>
+          <a href="mailto:hello@novaodyssey.com">novaodysseyweb@gmail.com</a>
         </li>
       </ul>
     </div>

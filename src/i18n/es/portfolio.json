@@ -5,8 +5,8 @@
         "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
         "projects": [
             {
-                "name": "Sitio Web Corporativo para TechCorp",
-                "link": "https://www.techcorp.com",
+                "name": "Sitio Web de Competencias para Equipo Universitario",
+                "link": "https://cuauhtemocipn.com/",
                 "heroImage": "https://picsum.photos/seed/techcorp/600/400",
                 "client": "TechCorp",
                 "images": [

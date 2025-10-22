@@ -42,14 +42,14 @@ function Footer() {
             <ul className="list-unstyled small mb-0">
               <li>
                 <strong>Email:</strong>{" "}
-                <a href="mailto:hello@novaodyssey.com">hello@novaodyssey.com</a>
+                <a href="mailto:hello@novaodyssey.com">novaodysseyweb@gmail.com</a>
               </li>
               <li>
                 <strong>Phone:</strong>{" "}
                 <a href="tel:+5215555555555">+52 1 555 555 5555</a>
               </li>
               <li>
-                <strong>{t("footer.location")}:</strong> Mexico City, MX
+                <strong>{t("footer.location")}:</strong> {t("navbar.address")}
               </li>
             </ul>
           </Col>
