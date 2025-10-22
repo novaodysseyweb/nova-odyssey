@@ -7,8 +7,8 @@
             {
                 "name": "Sitio Web de Competencias para Equipo Universitario",
                 "link": "https://cuauhtemocipn.com/",
-                "heroImage": "../assets/CuauhtémocWeb.jpeg",
-                "client": "TechCorp",
+                "heroImage": "/src/assets/CuauhtemocWeb.jpeg",
+                "client": "Cuauhtémoc IPN",
                 "images": [
                     "https://picsum.photos/seed/techcorp1/600/400",
                     "https://picsum.photos/seed/techcorp2/600/400",
@@ -17,7 +17,7 @@
                 "details": "Creado para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado.",
                 "features": [
                     "Diseño Adaptable",
-                    "",
+                    "Integración de Redes Sociales",
                     "Optimización SEO",
                     "Integración de Blog"
                 ],
