@@ -31,7 +31,7 @@ function Footer() {
               <Nav.Link href="/">{t("navbar.home")}</Nav.Link>
               <Nav.Link href="/services">{t("navbar.services")}</Nav.Link>
               <Nav.Link href="/portfolio">{t("navbar.portfolio")}</Nav.Link>
-              <Nav.Link href="/about">{t("navbar.about")}</Nav.Link>
+              {/* <Nav.Link href="/about">{t("navbar.about")}</Nav.Link> */}
               <Nav.Link href="/contact">{t("navbar.contact")}</Nav.Link>
             </Nav>
           </Col>
