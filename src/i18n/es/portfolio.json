@@ -5,7 +5,7 @@
     "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
     "projects": [
       {
-        "name": "Sitio Web de Competencias para Equipo Universitario",
+        "name": "Plataforma Web de Equipo Universitario",
         "link": "https://cuauhtemocipn.com/",
         "heroImage": "/src/assets/CuauhtemocWeb.jpeg",
         "client": "Cuauhtémoc IPN",
@@ -14,7 +14,7 @@
           "https://picsum.photos/seed/techcorp2/600/400",
           "https://picsum.photos/seed/techcorp3/600/400"
         ],
-        "details": "Creado para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado.",
+        "details": "Creación de sitio web para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado. Enlazado con sus redes sociales, empleamiento de carruseles automáticos, así como un formulario de reclutamiento enlazado a sus datos de contacto",
         "features": [
           "Diseño Adaptable",
           "Integración de Redes Sociales",
