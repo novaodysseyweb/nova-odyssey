@@ -20,7 +20,7 @@ function ProjectsSection() {
   const slides = chunkProjects(3);
 
   return (
-    <section className="projects-section py-5 bg-light">
+    <section className="projects-section py-5">
       <Container>
         <h2 className="text-center mb-4">{t("home.projects.title")}</h2>
 
