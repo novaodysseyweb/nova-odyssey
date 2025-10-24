@@ -103,15 +103,13 @@ function PortfolioProjectsSection() {
             >
               {selectedProject.images.map((image, idx) => (
                 <Carousel.Item key={idx}>
-                  <Row className="justify-content-center ratio ratio-4x3">
-                    <Col key={idx} className="d-flex align-items-center my-4">
-                      <Card.Img
-                        className='object-fit-cover'
-                        src={image}
-                        alt={selectedProject.name}
-                      />
-                    </Col>
-                  </Row>
+                  <div className="ratio ratio-4x3 d-flex justify-content-center align-items-center">
+                    <Card.Img
+                      src={image}
+                      alt={selectedProject.name}
+                      className='object-fit-contain w-100 h-100'
+                    />
+                  </div>
                 </Carousel.Item>
               ))}
             </Carousel>
