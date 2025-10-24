@@ -3,6 +3,8 @@
     "title": "Nuestro Portafolio",
     "subtitle": "Nuestros trabajos realizados",
     "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
+    "button":"Ver más detalles",
+    "website":"ir al sitio",
     "projects": [
       {
         "name": "Plataforma Web de Equipo Universitario",
@@ -16,12 +18,13 @@
           "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
           "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
         ],
-        "details": "Creación de sitio web para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado. Enlazado con sus redes sociales, empleamiento de carruseles automáticos, así como un formulario de reclutamiento enlazado a sus datos de contacto",
+        "details": "Creación de sitio web para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado. Enlazado con sus redes sociales, empleamiento de carruseles automáticos, así como un formulario de reclutamiento enlazado a sus datos de contacto.",
         "features": [
           "Diseño Adaptable",
           "Integración de Redes Sociales",
           "Optimización SEO",
-          "Integración de Blog"
+          "Integración de tooltips sobre imágenes",
+          "Contenido añadido desde redes sociales"
         ],
         "featured": true
       },
@@ -103,7 +106,7 @@
     "featured": true
 },
       {
-        "name": "Sitio Web de productos artsenales",
+        "name": "Sitio Web de productos personalizados",
         "link": "https://cuauhtemocipn.com/",
         "heroImage": "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
         "client": "Cuauhtémoc IPN",

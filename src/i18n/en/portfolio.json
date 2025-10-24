@@ -1,24 +1,29 @@
 {
   "portfolio": {
     "title": "Our Portfolio",
+    "subtitle": "Our developed works",
     "description": "Explore some of our recent projects that showcase our expertise in web design and development.",
+    "button":"View more details",
+    "website":"Go to website",
     "projects": [
       {
-        "name": "Corporate Website for TechCorp",
-        "link": "https://www.techcorp.com",
-        "heroImage": "https://picsum.photos/seed/techcorp/600/400",
-        "client": "TechCorp",
+        "name": "University Team Web Platform",
+        "link": "https://cuauhtemocipn.com/",
+        "heroImage": "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
+        "client": "Cuauhtémoc IPN",
         "images": [
-          "https://picsum.photos/seed/techcorp1/600/400",
-          "https://picsum.photos/seed/techcorp2/600/400",
-          "https://picsum.photos/seed/techcorp3/600/400"
+          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
+          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
+          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
+          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
+          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
         ],
-        "details": "A sleek, modern website designed for a leading technology company, featuring responsive design and interactive elements.",
+        "details": "Creation of a website to promote the IPN Cuauhtémoc team, showcasing all the competitions they have participated in, along with their achievements and collaborating sponsors. The site is linked to their social media profiles, includes automatic carousels, and features a recruitment form connected to their contact information.",
         "features": [
-          "Responsive Design",
-          "Custom Graphics",
-          "SEO Optimization",
-          "Blog Integration"
+          "Diseño Adaptable",
+          "Integración de Redes Sociales",
+          "Optimización SEO",
+          "Integración de Blog"
         ],
         "featured": true
       },

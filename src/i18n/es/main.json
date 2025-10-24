@@ -5,14 +5,14 @@
     "portfolio": "Portafolio",
     "about": "Nosotros",
     "contact": "Contacto",
-    "quote": "Solicitar Cotización",
-    "address": "Ciudad de México, MX"
+    "quote": "Solicitar Cotización"
   },
   "footer": {
     "navigation": "Navegación",
     "contact": "Contacto",
     "location": "Ubicación",
-    "tagline": "Diseñando el Futuro de la Presencia Digital"
+    "tagline": "Diseñando el Futuro de la Presencia Digital",
+    "address": "Ciudad de México, MX"
   },
   "home": {
     "hero": {

@@ -49,7 +49,7 @@ function Footer() {
                 <a href="tel:+5215555555555">+52 1 555 555 5555</a>
               </li>
               <li>
-                <strong>{t("footer.location")}:</strong> {t("navbar.address")}
+                <strong>{t("footer.location")}:</strong> {t("footer.address")}
               </li>
             </ul>
           </Col>

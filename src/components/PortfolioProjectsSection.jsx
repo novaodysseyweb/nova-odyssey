@@ -9,6 +9,8 @@ import { Modal } from 'react-bootstrap'
 function PortfolioProjectsSection() {
   const { t } = useTranslation()
 
+  const button = t('portfolio.button', { returnObjects: true })
+  const website = t('portfolio.website', { returnObjects: true })
   const projects = t('portfolio.projects', { returnObjects: true })
   const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
@@ -58,7 +60,7 @@ function PortfolioProjectsSection() {
                       variant='outline-primary'
                       onClick={() => details(project)}
                     >
-                      Ver más detalles
+                      {button}
                     </Button>
                   </div>
                 </div>
@@ -70,7 +72,7 @@ function PortfolioProjectsSection() {
                   className='btn btn-secondary col'
                   target='blank'
                 >
-                  Ir al sitio
+                  {website}
                 </a>
               </div>
 
@@ -101,9 +103,10 @@ function PortfolioProjectsSection() {
             >
               {selectedProject.images.map((image, idx) => (
                 <Carousel.Item key={idx}>
-                  <Row className="justify-content-center">
-                    <Col key={idx} className="my-4">
+                  <Row className="justify-content-center ratio ratio-4x3">
+                    <Col key={idx} className="d-flex align-items-center my-4">
                       <Card.Img
+                        className='object-fit-cover'
                         src={image}
                         alt={selectedProject.name}
                       />
@@ -121,7 +124,7 @@ function PortfolioProjectsSection() {
             {selectedProject.features.map((feature, idx) => (
               <div class="form-check" key={idx}>
                 <input class="form-check-input" type="checkbox" value={feature} id={`feature-${idx}`} checked />
-                <label class="form-check-label" for={`feature-${idx}`}>
+                <label class="form-check-label mx-2" for={`feature-${idx}`}>
                   {feature}
                 </label>
               </div>
