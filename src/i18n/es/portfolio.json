@@ -108,22 +108,23 @@
 },
       {
         "name": "Sitio Web de productos personalizados",
-        "link": "https://cuauhtemocipn.com/",
-        "heroImage": "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
-        "client": "Cuauhtémoc IPN",
+        "link": "https://banannyland.netlify.app/",
+        "heroImage": "src/assets/portfolio/banannyland/Bananny1.png",
+        "client": "Banannyland",
         "images": [
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
+          "src/assets/portfolio/banannyland/Bananny2.png",
+          "src/assets/portfolio/banannyland/Bananny3.png",
+          "src/assets/portfolio/banannyland/Bananny4.png"
         ],
-        "details": "Creación de sitio web para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado. Enlazado con sus redes sociales, empleamiento de carruseles automáticos, así como un formulario de reclutamiento enlazado a sus datos de contacto",
+        "details": "Sitio web desarrollado para la promoción y gestión de productos personalizados destacando los más solicitados así como integrando animaciones a las tarjetas de presentación de productos, búsqueda en base a categorías y temporadas, adición de carrito de compras para la realiación de pedidos enlazado a WhatssApp y/o correo electrónico.",
         "features": [
           "Diseño Adaptable",
           "Integración de Redes Sociales",
           "Optimización SEO",
-          "Integración de Blog"
+          "Animación de tarjetas",
+          "Búsqueda de productos",
+          "Personalización de productos",
+          "Carrito de compras"
         ],
         "featured": true
       }
