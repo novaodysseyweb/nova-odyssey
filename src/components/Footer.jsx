@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
-import logo from "/public/Logo_Final.png"; 
+import logo from "/Logo_Final.png"; 
 
 function Footer() {
   const { t } = useTranslation();

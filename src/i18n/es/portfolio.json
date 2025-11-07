@@ -10,14 +10,14 @@
       {
         "name": "Plataforma Web de Equipo Universitario",
         "link": "https://cuauhtemocipn.com/",
-        "heroImage": "public/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
+        "heroImage": "./portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
         "client": "Cuauhtémoc IPN",
         "images": [
-          "public/portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
-          "public/portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
-          "public/portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
-          "public/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
-          "public/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
+          "./portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
+          "./portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
+          "./portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
+          "./portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
+          "./portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
         ],
         "details": "Creación de sitio web para dar a conocer al equipo IPN Cuahtémoc así como todas las compentencias en las que han participado junto con sus logros obtenidos y los patrocinadores con los que han colaborado. Enlazado con sus redes sociales, empleamiento de carruseles automáticos, así como un formulario de reclutamiento enlazado a sus datos de contacto.",
         "features": [
@@ -32,14 +32,14 @@
       {
         "name": "Sitio Corporativo para negocio B2B",
         "link": "https://tfuturo.com/",
-        "heroImage": "public/portfolio/tfuturo/Tfuturo1.png",
+        "heroImage": "./portfolio/tfuturo/Tfuturo1.png",
         "client": "Tejiendo Futuro",
         "images": [
-          "public/portfolio/tfuturo/Tfuturo1.png",
-          "public/portfolio/tfuturo/Tfuturo2.png",
-          "public/portfolio/tfuturo/Tfuturo3.png",
-          "public/portfolio/tfuturo/Tfuturo4.png",
-          "public/portfolio/tfuturo/Tfuturo5.png"
+          "./portfolio/tfuturo/Tfuturo1.png",
+          "./portfolio/tfuturo/Tfuturo2.png",
+          "./portfolio/tfuturo/Tfuturo3.png",
+          "./portfolio/tfuturo/Tfuturo4.png",
+          "./portfolio/tfuturo/Tfuturo5.png"
         ],
         "details": "Sitio web corporativo enfocado en liderazgo, innovación y transformación organizacional. Combina un diseño moderno con colores vibrantes (magenta, naranja, verde y azul), tipografía limpia y enfoque humano. Incluye secciones de servicios, artículos, clientes y una agenda integrada para reservar citas mediante Google Calendar.",
         "features": [
@@ -56,14 +56,14 @@
       {
         "name": "Plataforma de Renta de Vestidos y Gestión de Negocio - DressUp",
         "link": "https://dressup-v1.netlify.app",
-        "heroImage": "/public/portfolio/dressup/Dressup1.png",
+        "heroImage": "/./portfolio/dressup/Dressup1.png",
         "client": "DressUp",
         "images": [
-          "/public/portfolio/dressup/Dressup1.png",
-          "/public/portfolio/dressup/Dressup2.png",
-          "/public/portfolio/dressup/Dressup3.png",
-          "/public/portfolio/dressup/Dressup4.png",
-          "/public/portfolio/dressup/Dressup5.png"
+          "/./portfolio/dressup/Dressup1.png",
+          "/./portfolio/dressup/Dressup2.png",
+          "/./portfolio/dressup/Dressup3.png",
+          "/./portfolio/dressup/Dressup4.png",
+          "/./portfolio/dressup/Dressup5.png"
         ],
         "details": "Proyecto integral que combina una página pública para la renta de vestidos y servicios con una aplicación interna de gestión empresarial. El sistema permite administrar usuarios, roles, calendario de reservas, inventario, servicios, transacciones y reportes financieros. La página pública muestra el catálogo de vestidos, servicios adicionales (maquillaje, peinado, eventos) y ofrece un sistema de citas en línea. El diseño destaca por su estilo elegante y femenino con una paleta rosa, tipografía serif y enfoque en la experiencia del usuario.",
         "features": [
@@ -83,16 +83,16 @@
       {
     "name": "Menú Digital para Restaurante",
     "link": "https://cava-urbana.netlify.app/",
-    "heroImage": "/public/portfolio/cavaUrbana/cava1.png",
+    "heroImage": "/./portfolio/cavaUrbana/cava1.png",
     "client": "La Cava Urbana",
     "images": [
-        "/public/portfolio/cavaUrbana/cava1.png",
-        "/public/portfolio/cavaUrbana/cava2.png",
-        "/public/portfolio/cavaUrbana/cava3.png",
-        "/public/portfolio/cavaUrbana/cava4.png",
-        "/public/portfolio/cavaUrbana/cava5.png",
-        "/public/portfolio/cavaUrbana/cava6.png",
-        "/public/portfolio/cavaUrbana/cava7.png"
+        "/./portfolio/cavaUrbana/cava1.png",
+        "/./portfolio/cavaUrbana/cava2.png",
+        "/./portfolio/cavaUrbana/cava3.png",
+        "/./portfolio/cavaUrbana/cava4.png",
+        "/./portfolio/cavaUrbana/cava5.png",
+        "/./portfolio/cavaUrbana/cava6.png",
+        "/./portfolio/cavaUrbana/cava7.png"
     ],
     "details": "Desarrollo de un sitio web elegante para un restaurante de cocina de autor y vinos artesanales. El diseño combina tonos cálidos, tipografía serif y un estilo minimalista que transmite sofisticación y cercanía. Incluye páginas de menú, reservaciones en línea, información de contacto y una sección sobre la filosofía del restaurante. Totalmente adaptable a dispositivos móviles y optimizado para SEO local.",
     "features": [
@@ -109,12 +109,12 @@
       {
         "name": "Sitio Web de productos personalizados",
         "link": "https://banannyland.netlify.app/",
-        "heroImage": "public/portfolio/banannyland/Bananny1.png",
+        "heroImage": "./portfolio/banannyland/Bananny1.png",
         "client": "Banannyland",
         "images": [
-          "public/portfolio/banannyland/Bananny2.png",
-          "public/portfolio/banannyland/Bananny3.png",
-          "public/portfolio/banannyland/Bananny4.png"
+          "./portfolio/banannyland/Bananny2.png",
+          "./portfolio/banannyland/Bananny3.png",
+          "./portfolio/banannyland/Bananny4.png"
         ],
         "details": "Sitio web desarrollado para la promoción y gestión de productos personalizados destacando los más solicitados así como integrando animaciones a las tarjetas de presentación de productos, búsqueda en base a categorías y temporadas, adición de carrito de compras para la realiación de pedidos enlazado a WhatssApp y/o correo electrónico.",
         "features": [
