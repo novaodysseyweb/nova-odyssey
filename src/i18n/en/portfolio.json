@@ -9,35 +9,35 @@
       {
         "name": "University Team Web Platform",
         "link": "https://cuauhtemocipn.com/",
-        "heroImage": "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
+        "heroImage": "public/portfolio/cuauhtemocIpn/Cuauhtemoc1.jpeg",
         "client": "Cuauhtémoc IPN",
         "images": [
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
-          "src/assets/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
+          "public/portfolio/cuauhtemocIpn/Cuauhtemoc2.png",
+          "public/portfolio/cuauhtemocIpn/Cuauhtemoc3.png",
+          "public/portfolio/cuauhtemocIpn/Cuauhtemoc4.png",
+          "public/portfolio/cuauhtemocIpn/Cuauhtemoc5.png",
+          "public/portfolio/cuauhtemocIpn/Cuauhtemoc6.jpg"
         ],
         "details": "Creation of a website to promote the IPN Cuauhtémoc team, showcasing all the competitions they have participated in, along with their achievements and collaborating sponsors. The site is linked to their social media profiles, includes automatic carousels, and features a recruitment form connected to their contact information.",
         "features": [
-          "Diseño Adaptable",
-          "Integración de Redes Sociales",
-          "Optimización SEO",
-          "Integración de Blog"
+          "Responsive Design",
+          "Social Media Integration",
+          "SEO Optimization",
+          "Blog Integration"
         ],
         "featured": true
       },
       {
         "name": "Corporate Website for B2B Business",
         "link": "https://tfuturo.com/",
-        "heroImage": "/src/assets/portfolio/tfuturo/Tfuturo1.png",
+        "heroImage": "/public/portfolio/tfuturo/Tfuturo1.png",
         "client": "Tejiendo Futuro",
         "images": [
-          "src/assets/portfolio/tfuturo/Tfuturo1.png",
-          "src/assets/portfolio/tfuturo/Tfuturo2.png",
-          "src/assets/portfolio/tfuturo/Tfuturo3.png",
-          "src/assets/portfolio/tfuturo/Tfuturo4.png",
-          "src/assets/portfolio/tfuturo/Tfuturo5.png"
+          "public/portfolio/tfuturo/Tfuturo1.png",
+          "public/portfolio/tfuturo/Tfuturo2.png",
+          "public/portfolio/tfuturo/Tfuturo3.png",
+          "public/portfolio/tfuturo/Tfuturo4.png",
+          "public/portfolio/tfuturo/Tfuturo5.png"
         ],
         "details": "Corporate website focused on leadership, innovation, and organizational transformation. It combines a modern design with vibrant colors (magenta, orange, green, and blue), clean typography, and a human-centered approach. Includes service sections, client showcases, dynamic blog, and an integrated Google Calendar booking system.",
         "features": [
@@ -54,14 +54,14 @@
       {
         "name": "Dress Rental and Business Management Platform",
         "link": "https://dressup-v1.netlify.app",
-        "heroImage": "/src/assets/portfolio/dressup/Dressup1.png",
+        "heroImage": "/public/portfolio/dressup/Dressup1.png",
         "client": "DressUp",
         "images": [
-          "/src/assets/portfolio/dressup/Dressup1.png",
-          "/src/assets/portfolio/dressup/Dressup2.png",
-          "/src/assets/portfolio/dressup/Dressup3.png",
-          "/src/assets/portfolio/dressup/Dressup4.png",
-          "/src/assets/portfolio/dressup/Dressup5.png"
+          "/public/portfolio/dressup/Dressup1.png",
+          "/public/portfolio/dressup/Dressup2.png",
+          "/public/portfolio/dressup/Dressup3.png",
+          "/public/portfolio/dressup/Dressup4.png",
+          "/public/portfolio/dressup/Dressup5.png"
         ],
         "details": "Comprehensive project combining a public-facing website for dress rentals and beauty services with an internal business management system. The platform includes user and role management, booking calendar, inventory control, service management, sales tracking, and financial summaries. The public site showcases the dress catalog, additional services (makeup, hair styling, events), and an online booking system. The design features an elegant, feminine aesthetic with a soft pink palette, serif typography, and a user-focused interface.",
         "features": [
@@ -81,16 +81,16 @@
       {
     "name": "Digital Menu for Restaurant ",
     "link": "https://cava-urbana.netlify.app/",
-    "heroImage": "/src/assets/portfolio/cavaUrbana/cava1.png",
+    "heroImage": "/public/portfolio/cavaUrbana/cava1.png",
     "client": "La Cava Urbana",
     "images": [
-        "/src/assets/portfolio/cavaUrbana/cava1.png",
-        "/src/assets/portfolio/cavaUrbana/cava2.png",
-        "/src/assets/portfolio/cavaUrbana/cava3.png",
-        "/src/assets/portfolio/cavaUrbana/cava4.png",
-        "/src/assets/portfolio/cavaUrbana/cava5.png",
-        "/src/assets/portfolio/cavaUrbana/cava6.png",
-        "/src/assets/portfolio/cavaUrbana/cava7.png"
+        "/public/portfolio/cavaUrbana/cava1.png",
+        "/public/portfolio/cavaUrbana/cava2.png",
+        "/public/portfolio/cavaUrbana/cava3.png",
+        "/public/portfolio/cavaUrbana/cava4.png",
+        "/public/portfolio/cavaUrbana/cava5.png",
+        "/public/portfolio/cavaUrbana/cava6.png",
+        "/public/portfolio/cavaUrbana/cava7.png"
     ],
     "details": "Elegant website for a fine dining restaurant specializing in contemporary cuisine and artisanal wines. The design features warm tones, serif typography, and a minimalist layout that conveys sophistication and authenticity. Includes sections for the menu, online reservations, contact details, and the restaurant’s philosophy. Fully responsive and optimized for local SEO.",
     "features": [
@@ -103,8 +103,29 @@
         "Consistent visual identity"
     ],
     "featured": true
-}
-
+},
+      {
+        "name": "Custom Products Website",
+        "link": "https://banannyland.netlify.app/",
+        "heroImage": "public/portfolio/banannyland/Bananny1.png",
+        "client": "Banannyland",
+        "images": [
+          "public/portfolio/banannyland/Bananny2.png",
+          "public/portfolio/banannyland/Bananny3.png",
+          "public/portfolio/banannyland/Bananny4.png"
+        ],
+        "details": "Website developed for the promotion and management of personalized products, highlighting the most requested ones. It includes animated product cards, category- and season-based search functionality, and a shopping cart feature that allows customers to place orders directly through WhatsApp and/or email.",
+        "features": [
+          "Responsive Design",
+          "Social Media Integration",
+          "SEO Optimization",
+          "Animated Product Cards",
+          "Product Search",
+          "Product Customization",
+          "Shopping Cart"
+        ],
+        "featured": true
+      }
     ]
   }
 }

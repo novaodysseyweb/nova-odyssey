@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Navbar, Nav, Container, Button, Dropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import HorizontalLogo from "../assets/HorizontalLogo.png"; // Import the logo
+import HorizontalLogo from "/public/HorizontalLogo.png"; // Import the logo
 
 function NavbarComponent() {
   const { t, i18n } = useTranslation();
