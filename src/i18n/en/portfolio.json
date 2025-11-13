@@ -4,6 +4,7 @@
     "subtitle": "Our developed works",
     "description": "Explore some of our recent projects that showcase our expertise in web design and development.",
     "button":"View more details",
+    "features":"Features used:",
     "website":"Go to website",
     "projects": [
       {
@@ -111,8 +112,8 @@
         "client": "Banannyland",
         "images": [
           "./portfolio/banannyland/Bananny2.png",
-          "./portfolio/banannyland/Bananny3.png",
-          "./portfolio/banannyland/Bananny4.png"
+          "./portfolio/banannyland/Bananny3.jpg",
+          "./portfolio/banannyland/Bananny4.jpg"
         ],
         "details": "Website developed for the promotion and management of personalized products, highlighting the most requested ones. It includes animated product cards, category- and season-based search functionality, and a shopping cart feature that allows customers to place orders directly through WhatsApp and/or email.",
         "features": [

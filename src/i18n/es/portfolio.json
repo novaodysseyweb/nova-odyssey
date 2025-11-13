@@ -5,6 +5,7 @@
     "subtitle": "Nuestros trabajos realizados",
     "description": "Explora algunos de nuestros proyectos recientes que muestran nuestra experiencia en diseño y desarrollo web.",
     "button":"Ver más detalles",
+    "features":"Elementos empleados:",
     "website":"ir al sitio",
     "projects": [
       {
@@ -113,8 +114,8 @@
         "client": "Banannyland",
         "images": [
           "./portfolio/banannyland/Bananny2.png",
-          "./portfolio/banannyland/Bananny3.png",
-          "./portfolio/banannyland/Bananny4.png"
+          "./portfolio/banannyland/Bananny3.jpg",
+          "./portfolio/banannyland/Bananny4.jpg"
         ],
         "details": "Sitio web desarrollado para la promoción y gestión de productos personalizados destacando los más solicitados así como integrando animaciones a las tarjetas de presentación de productos, búsqueda en base a categorías y temporadas, adición de carrito de compras para la realiación de pedidos enlazado a WhatssApp y/o correo electrónico.",
         "features": [

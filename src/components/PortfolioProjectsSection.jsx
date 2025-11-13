@@ -9,10 +9,11 @@ import { Modal } from 'react-bootstrap'
 function PortfolioProjectsSection() {
   const { t } = useTranslation()
 
+  const projects = t('portfolio.projects', { returnObjects: true })
   const button = t('portfolio.button', { returnObjects: true })
   const website = t('portfolio.website', { returnObjects: true })
   const header = t('portfolio.header', { returnObjects: true })
-  const projects = t('portfolio.projects', { returnObjects: true })
+  const features = t('portfolio.features', { returnObjects: true })
   const [showModal, setShowModal] = useState(false)
   const [selectedProject, setSelectedProject] = useState(null)
 
@@ -121,7 +122,7 @@ function PortfolioProjectsSection() {
                     {selectedProject.details}
                   </p>
                   <p className='card-text text-justify'>
-                    Elementos empleados:
+                    {features}
                   </p>
                   {selectedProject.features.map((feature, idx) => (
                     <div class="form-check" key={idx}>
